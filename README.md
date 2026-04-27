@@ -1,18 +1,20 @@
 LAPORAN PRAKTIKUM VISUALISASI DAN ANALISIS DATA : 
 
 1. Business Question
+   
 Produk apa saja yang termasuk underperformer (harga tinggi namun penjualan rendah)?
 Produk mana yang memiliki performa terbaik berdasarkan analisis RFM?
 Kategori produk mana yang paling efisien dalam menghasilkan profit?
 
 2. Data Wrangling
+   
 Dataset berisi 3500 data transaksi tanpa missing value.
 Dilakukan pengecekan tipe data menggunakan df.info() dan tidak ditemukan nilai kosong.
 Nama kolom disederhanakan agar mudah digunakan dalam analisis.
 Kolom order_date diubah ke format datetime untuk mempermudah analisis waktu.
 Dibuat kolom baru price_per_unit untuk menghitung harga per produk.
 
-4. Insights
+3. Insights
 - Underperformer Product
 
 Berdasarkan analisis, ditemukan beberapa produk dengan harga per unit tinggi namun memiliki jumlah penjualan rendah. Hal ini menunjukkan bahwa harga yang terlalu tinggi dapat menjadi faktor penghambat dalam meningkatkan volume penjualan.
